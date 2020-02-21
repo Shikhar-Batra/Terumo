@@ -12,10 +12,16 @@
 <!--        <g-link to="/">{{ $static.metadata.siteName }}</g-link>-->
 <!--      </strong>-->
       <nav class="nav">
-        <g-link class="nav__link" to="/aortic">Aortic</g-link>
-        <g-link class="nav__link" to="/heart">Heart</g-link>
-        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>
-        <g-link class="nav__link" to="/medical">Medical</g-link>
+<!--        <g-link class="nav__link" to="/aortic">Aortic</g-link>-->
+<!--        <g-link class="nav__link" to="/heart">Heart</g-link>-->
+<!--        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>-->
+<!--        <g-link class="nav__link" to="/medical">Medical</g-link>-->
+
+
+          <g-link class="nav__link" to="#">Aortic</g-link>
+        <g-link class="nav__link" to="#">Heart</g-link>
+        <g-link class="nav__link" to="#">Cardiovascular</g-link>
+        <g-link class="nav__link" to="#">Medical</g-link>
       </nav>
     </header>
     <slot/>
