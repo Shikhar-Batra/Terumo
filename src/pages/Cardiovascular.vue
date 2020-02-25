@@ -1,11 +1,11 @@
 <template>
-    <Layout>
+    <Glayout>
 
 
         <body pagetitle="Job Search Welcome | Terumo CV Group" >
         <!-- ngIf: bConfigMode -->
         <div id="homeContainer">
-            <div class="clearfix home ng-scope noBkgImage" id="content">
+            <div class="home ng-scope noBkgImage" id="content">
                 <div class="homeContentLiner">
                     <div class="ng-scope">
                         <div class="pageHeaderContainer ng-scope">
@@ -546,11 +546,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
         </div>
 
 
-
-
         </body>
 
-    </Layout>
+    </Glayout>
 </template>
 
 <script>
@@ -563,6 +561,7 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
 </script>
 
 <style>
+
 
 
 </style>

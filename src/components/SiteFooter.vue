@@ -33,13 +33,10 @@
         name: 'SiteFooter',
         data () {
             return {
-                message: 'Try change me!'
             }
         },
         methods: {
-            onClick () {
-                this.message = 'Here you go :)'
-            }
+
         }
     }
 </script>
@@ -64,7 +61,8 @@
 
     .footerLinkContainer {
         padding: 0;
-        display: inline-block;
+        /*max-width: 1243px;*/
+        /*margin: 0 auto;*/
     }
 
     .footerLink{
@@ -108,6 +106,50 @@
         border-bottom: none;
     }
 
+    @media (min-width: 576px){
+
+        .footerLinkContainer{
+            max-width: 540px;
+            margin:0 20px;
+        }
+
+    }
+
+    @media (min-width: 768px) {
+
+        .footerLinkContainer{
+            max-width: 720px;
+            margin:0 20px;
+        }
+
+
+    }
+    @media (min-width: 992px) {
+
+        .footerLinkContainer{
+            max-width: 960px;
+            margin:0 20px;
+        }
+
+
+    }
+
+    @media (min-width: 1200px) {
+
+        .footerLinkContainer{
+            max-width: 1140px;
+            margin:0 20px;
+        }
+
+
+    }
+
+    @media (min-width: 1600px) {
+        .footerLinkContainer{
+            max-width: 1440px;
+            margin:0 20px;
+        }
+    }
 
 
 </style>

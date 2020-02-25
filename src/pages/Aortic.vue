@@ -5,7 +5,7 @@
     <body pagetitle="Job Search Welcome | Terumo CV Group" >
     <!-- ngIf: bConfigMode -->
     <div id="homeContainer">
-      <div class="clearfix home ng-scope noBkgImage" id="content">
+      <div class=" home ng-scope noBkgImage" id="content">
         <div class="homeContentLiner">
           <div class="ng-scope">
             <div class="pageHeaderContainer ng-scope">

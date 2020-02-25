@@ -12,15 +12,15 @@
 <!--        <g-link to="/">{{ $static.metadata.siteName }}</g-link>-->
 <!--      </strong>-->
       <nav class="nav">
-<!--        <g-link class="nav__link" to="/aortic">Aortic</g-link>-->
-<!--        <g-link class="nav__link" to="/heart">Heart</g-link>-->
-<!--        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>-->
-<!--        <g-link class="nav__link" to="/medical">Medical</g-link>-->
+        <g-link class="nav__link" to="/aortic">Aortic</g-link>
+        <g-link class="nav__link" to="/heart">Heart</g-link>
+        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>
+        <g-link class="nav__link" to="/medical">Medical</g-link>
 
-          <g-link class="nav__link" >Medical</g-link>
-          <g-link class="nav__link">Aortic</g-link>
-        <g-link class="nav__link" >Heart</g-link>
-        <g-link class="nav__link" >Cardiovascular</g-link>
+<!--          <g-link class="nav__link" >Medical</g-link>-->
+<!--          <g-link class="nav__link">Aortic</g-link>-->
+<!--        <g-link class="nav__link" >Heart</g-link>-->
+<!--        <g-link class="nav__link" >Cardiovascular</g-link>-->
 
       </nav>
     </header>
@@ -31,16 +31,22 @@
 
 
 <style>
+    /*#homeContainer{*/
+
+    /*    max-width: 1243px;*/
+    /*    margin: 0 auto;*/
+    /*}*/
+
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family:  Barlow,Arial,sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
-
+body:#415364;
 }
 
 .layout {
-  /*max-width: 760px;*/
+  /*max-width: 1243px;*/
   /*margin: 0 auto;*/
   /*padding-left: 20px;*/
   /*padding-right: 20px;*/
@@ -51,6 +57,8 @@ body {
   align-items: center;
   /*margin-bottom: 20px;*/
   /*height: 80px;*/
+  /*  max-width: 1243px;*/
+  /*  margin: 0 auto;*/
 }
 
 .nav__link {
@@ -67,22 +75,109 @@ body {
 
 
 .primaryHeaderLogoWrapperLink{
-
-    margin-left:20px !important;
+    /*max-width: 1243px;*/
+    margin-top: 10px !important;
 }
 
 
 
 img.primaryHeaderLogo {
-  height: 60px;
+  height: 35px;
   /*width: auto;*/
 }
 
   header.nav{
     float:left;
-      margin:0 20px;
+
 
   }
+
+
+
+    @media (min-width: 576px){
+
+        .header{
+            max-width: 540px;
+            margin:0 20px;
+        }
+
+        .primaryHeaderLogoWrapperLink{
+            max-width: 540px;
+            margin:0 20px;
+        }
+
+    }
+
+    @media (min-width: 768px) {
+
+        .header{
+            max-width: 720px;
+            margin:0 20px;
+        }
+
+ .primaryHeaderLogoWrapperLink{
+            max-width: 720px;
+     margin:0 20px;
+        }
+
+
+    }
+    @media (min-width: 992px) {
+
+        .header{
+            max-width: 960px;
+            margin:0 20px;
+        }
+
+ .primaryHeaderLogoWrapperLink{
+            max-width: 960px;
+     margin:0 20px;
+        }
+
+
+    }
+
+    @media (min-width: 1200px) {
+
+        .header{
+            max-width: 1140px;
+            margin:0 20px;
+        }
+ .primaryHeaderLogoWrapperLink{
+            max-width: 1140px;
+     margin:0 20px;
+        }
+
+
+    }
+
+    @media (min-width: 1600px) {
+        .header{
+            max-width: 1440px;
+            margin:0 20px;
+
+        }
+
+
+        .primaryHeaderLogoWrapperLink{
+            max-width: 1440px;
+            margin:0 20px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </style>
@@ -91,7 +186,7 @@ img.primaryHeaderLogo {
 
     export default {
         components: {
-            "site-footer": SiteFooter
+            "site-footer": SiteFooter,
         },
         mounted() {
         }

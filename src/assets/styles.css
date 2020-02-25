@@ -190,11 +190,10 @@
     }
 
     .gaps-container-fluid{
-        width: 100%;
+        max-width: 1443px;
+        margin: 0 auto;
         padding-right: 15px;
         padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
     }
 
     .gaps-row{
@@ -237,7 +236,9 @@
         display: block;
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: 17px;
+        background-size: 16px;
+        margin-top:2px;
+        opacity:0.6;
         transition: all .2s ease;
         -webkit-transition: all .2s ease;
         -moz-transition: all .2s ease;
@@ -372,7 +373,7 @@
         float: left;
         width: 100%;
         background-color: #fff;
-        padding: 25px 30px;
+        padding: 25px 25px;
         -webkit-box-shadow: 0 21px 47.52px 0.48px rgba(190,196,207,.4);
         box-shadow: 0 21px 47.52px 0.48px rgba(190,196,207,.4);
         display: block;
@@ -586,6 +587,8 @@
         -moz-appearance: none;
         appearance: none;
         background-color: white;
+        text-transform: uppercase;
+        outline:none;
     }
 
     .search-job .gaps-form-group{
@@ -606,9 +609,10 @@
 
     .banner-inner .banner-title h1{
         font-size: 24px;
-        font-weight: bolder;
         text-align: center;
         color: #fff;
+        font-weight: 600;
+
     }
 
     .job-search .box-details {
@@ -647,7 +651,7 @@
     .font14{
         font-size: 14px;
         line-height: 22px;
-        color: #333333;
+        color: #415364;
         opacity:0.7;
     }
 
@@ -808,21 +812,50 @@
         }
     }
 
-    @media (min-width: 768px) {
-        .gaps-container {
-            width: 750px;
-        }
-    }
-    @media (min-width: 992px) {
-        .gaps-container {
-            width: 970px;
-        }
-    }
+    /*@media (min-width: 576px){*/
 
-    @media (min-width: 1200px) {
-        .gaps-container {
-            width: 1170px;
+    /*    .gaps-container-fluid{*/
+    /*        max-width: 540px;*/
+    /*    }*/
+
+    /*}*/
+
+    /*!*@media (min-width: 768px) {*!*/
+
+    /*!*    .gaps-container-fluid{*!*/
+    /*!*        max-width: 720px;*!*/
+    /*!*    }*!*/
+
+    /*!*    .gaps-container {*!*/
+    /*!*        width: 750px;*!*/
+    /*!*    }*!*/
+    /*!*}*!*/
+    /*!*@media (min-width: 992px) {*!*/
+
+    /*!*    .gaps-container-fluid{*!*/
+    /*!*        max-width: 960px;*!*/
+    /*!*    }*!*/
+
+    /*!*    .gaps-container {*!*/
+    /*!*        width: 970px;*!*/
+    /*!*    }*!*/
+    /*!*}*!*/
+
+    /*!*@media (min-width: 1200px) {*!*/
+
+    /*!*    .gaps-container-fluid{*!*/
+    /*!*        max-width: 1140px;*!*/
+    /*!*    }*!*/
+
+    /*!*    .gaps-container {*!*/
+    /*!*        width: 1170px;*!*/
+    /*!*    }*!*/
+    /*!*}*!*/
+
+
+    @media (min-width: 1600px) {
+        .gaps-container-fluid{
+            max-width: 1440px;
         }
     }
-
 
