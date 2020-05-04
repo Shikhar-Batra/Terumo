@@ -13,4 +13,17 @@ module.exports = function (api) {
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
   })
+
+
+
+  module.exports = function (api) {
+    api.loadSource(async actions => {
+      const {data} = await axios.get('https://api.lever.co/v0/postings/velocitycloud')
+      console.log(this.data)
+    })
+  }
+
+
+
+
 }

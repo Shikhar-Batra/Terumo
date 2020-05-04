@@ -1,11 +1,11 @@
 <template>
-  <Layout>
+  <Glayout>
 
 
     <body pagetitle="Job Search Welcome | Terumo CV Group" >
     <!-- ngIf: bConfigMode -->
     <div id="homeContainer">
-      <div class=" home ng-scope noBkgImage" id="content">
+      <div class="home ng-scope noBkgImage" id="content">
         <div class="homeContentLiner">
           <div class="ng-scope">
             <div class="pageHeaderContainer ng-scope">
@@ -17,6 +17,29 @@
             </div>
           </div>
           <!--GAPS-->
+
+
+          <div class="gaps-container-fluid">
+            <div class="gaps-row">
+              <div class="gaps-col-12">
+                <div class="box-inner  pt50 pb50">
+                  <div class="box-heading text-center">
+                    <div class="max-width">
+                      <h4 class="gaps-title">Thank you for visiting the Terumo Cardiovascular Group Career Center
+                      </h4>
+                      <p class="font14">Here you can view and apply for current job openings at Terumo Cardiovascular Group and Terumo Heart, Inc. within the United States.
+                        For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.
+                        For technical questions, <a href="">contact us</a>.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
           <div class="box-wrapper job-search">
             <div class="banner-wrapper">
               <div class="gaps-container">
@@ -100,19 +123,20 @@
             <div class="gaps-container-fluid">
               <div class="gaps-row">
                 <div class="gaps-col-12">
-                  <div class="box-inner  pt50 pb50">
-                    <div class="box-heading text-center">
-                      <div class="max-width">
-                        <h4 class="gaps-title">Thank you for visiting the Terumo Cardiovascular Group Career Center
-                        </h4>
-                        <p class="font14">Here you can view and apply for current job openings at Terumo Cardiovascular Group and Terumo Heart, Inc. within the United States.
-                          For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.
-                          For technical questions, <a href="">contact us</a>.</p>
-                      </div>
-                    </div>
+<!--                  <div class="box-inner pt50 pb50">-->
+                    <div class="box-inner pb50">
+<!--                    <div class="box-heading text-center">-->
+<!--                      <div class="max-width">-->
+<!--                        <h4 class="gaps-title">Thank you for visiting the Terumo Cardiovascular Group Career Center-->
+<!--                        </h4>-->
+<!--                        <p class="font14">Here you can view and apply for current job openings at Terumo Cardiovascular Group and Terumo Heart, Inc. within the United States.-->
+<!--                          For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.-->
+<!--                          For technical questions, <a href="">contact us</a>.</p>-->
+<!--                      </div>-->
+<!--                    </div>-->
                     <div class="box-container pt50">
                       <div class="gaps-row">
-                   <div class="gaps-col-3 gaps-col-xs-6">
+                        <div class="gaps-col-3 gaps-col-xs-6">
 
                           <div class="box">
 
@@ -514,7 +538,7 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                   <span class="gaps-icon gaps-icon-company"></span>
                                   <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
                                 </div>
-                              <div class="box-sub-title pt10">
+                                <div class="box-sub-title pt10">
                                   <span class="gaps-icon gaps-icon-location"></span>
                                   <span class="bold text-dark gaps-txt"> Ashland, United States</span>
                                 </div>
@@ -528,7 +552,7 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                             </div>
                           </div>
                         </div>
-                  </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -546,22 +570,22 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
     </div>
 
 
-
     </body>
 
-  </Layout>
+  </Glayout>
 </template>
 
 <script>
 
   export default {
-  metaInfo: {
-    title: 'Aortic'
+    metaInfo: {
+      title: 'Aortic'
+    }
   }
-}
 </script>
 
 <style>
+
 
 
 </style>

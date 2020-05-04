@@ -37,7 +37,23 @@
         },
         methods: {
 
+        },
+        mounted() {
+            //
+            // function listJobs(){
+            //     axios.get(`https://api.lever.co/v0/postings/velocitycloud`)
+            //        .then(((jobRes) => {
+            //            this.JobPostings = jobRes.data;
+            //            console.log(this.JobPostings)
+            //
+            //        }))
+            //     console.log('Hi')
+
+            // }
+
         }
+
+
     }
 </script>
 

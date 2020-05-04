@@ -7,6 +7,12 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "vue-property-decorator": "^8.4.0"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "gridsome-plugin-ts": "^0.0.2",
+    "typescript": "^3.8.3"
   }
 }
