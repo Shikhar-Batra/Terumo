@@ -1,5 +1,5 @@
 <template>
-    <Glayout>
+    <Mlayout>
 
 
         <body pagetitle="Job Search Welcome | Terumo CV Group" >
@@ -25,11 +25,10 @@
                                 <div class="box-inner  pt50 pb50">
                                     <div class="box-heading text-center">
                                         <div class="max-width">
-                                            <h4 class="gaps-title">Thank you for visiting the Terumo Cardiovascular Group Career Center
+                                            <h4 class="gaps-title">Thank you for visiting the TERUMO MEDICAL CORPORATION Career Center
                                             </h4>
-                                            <p class="font14">Here you can view and apply for current job openings at Terumo Cardiovascular Group and Terumo Heart, Inc. within the United States.
-                                                For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.
-                                                For technical questions, <a href="">contact us</a>.</p>
+                                            <p class="font14">Terumo has long attracted and retained the brightest and most accomplished people in the world. We value our Associates as our most important assets. Our Associates follow rewarding and meaningful career paths and maintain a strong sense of job satisfaction. That’s what comes from our dedication to innovation, creative problem solving, teamwork and lifelong learning. We maintain a passionate, dedicated and collaborative team environment across multiple functional areas.<br/>
+                                             Whether your area of expertise is marketing, engineering, sales or manufacturing, if you are the best at what you do, we look forward to speaking with you. <a href="">contact us</a>.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -572,7 +571,7 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
 
         </body>
 
-    </Glayout>
+    </Mlayout>
 </template>
 
 <script>
