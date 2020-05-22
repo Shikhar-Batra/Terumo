@@ -583,10 +583,17 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
     }
 </script>
 
-<style>
-.font14{
-   color: #008d61;
-}
+<style scoped>
+    .search-job button.gaps-form-control.btn.btn-primary {
+        background-color: #008d61;
+    }
+    .box-details .box-title h2 {
+        color: #008d61;
+    }
 
+    .box-bg:hover {
+        background-color: #008d61;
+        margin-top: -10px;
+    }
 
 </style>

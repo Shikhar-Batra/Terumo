@@ -71,28 +71,28 @@
         /*margin: 0 auto;*/
     }
 
-    .medical-layout .nav__link {
-        margin-left: 20px;
-        color: #415364;
-        font-size:16px;
-        line-height:60px;
-        font-weight: bold;
-    }
+    /*.medical-layout .nav__link {*/
+    /*    margin-left: 20px;*/
+    /*    color: #415364;*/
+    /*    font-size:16px;*/
+    /*    line-height:60px;*/
+    /*    font-weight: bold;*/
+    /*}*/
 
-    .medical-layout .nav__link:hover {
-        border-bottom: none !important;
-        opacity: 0.7 !important;
-        color: #444b52 !important;
-        font-weight: bold;
+    /*.medical-layout .nav__link:hover {*/
+    /*    border-bottom: none !important;*/
+    /*    opacity: 0.7 !important;*/
+    /*    color: #444b52 !important;*/
+    /*    font-weight: bold;*/
 
-    }
+    /*}*/
 
 
-    .medical-layout .primaryHeaderLogoWrapperLink{
-        /*max-width: 1243px;*/
-        margin-top: 10px;
+    /*.medical-layout .primaryHeaderLogoWrapperLink{*/
+    /*    !*max-width: 1243px;*!*/
+    /*    margin-top: 10px;*/
 
-    }
+    /*}*/
 
 
 
