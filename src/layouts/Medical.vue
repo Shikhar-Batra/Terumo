@@ -17,7 +17,10 @@
                 <!--                        <g-link class="nav__link" to="/aortic">Aortic</g-link>-->
 <!--                        <g-link class="nav__link" to="/heart">Heart</g-link>-->
 <!--                        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>-->
-                        <g-link class="nav__link" to="/medical">Medical</g-link>
+                        <g-link class="nav__link" to="/medical">Medical Jobs</g-link>
+                        <g-link class="nav__link" to="https://www.terumomedical.com/about.html">About Terumo</g-link>
+                        <g-link class="nav__link" to="https://www.terumomedical.com/solutions/terumo-interventional-systems.html">Terumo Interventional Systems</g-link>
+                        <g-link class="nav__link" to="https://www.terumotmp.com/">Terumo Medical Products</g-link>
 
 <!--                <g-link class="nav__link" >Medical</g-link>-->
 <!--                <g-link class="nav__link">Aortic</g-link>-->
