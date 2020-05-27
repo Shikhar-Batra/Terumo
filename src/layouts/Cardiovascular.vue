@@ -11,20 +11,17 @@
             <!--      <strong>-->
             <!--        <g-link to="/">{{ $static.metadata.siteName }}</g-link>-->
             <!--      </strong>-->
-            <nav class="nav">
-                                        <g-link class="nav__link" to="/">All Jobs</g-link>
-
+        <!--    <nav class="nav">
+                <g-link class="nav__link" to="/cardiovascular">Cardiovascular Jobs</g-link>
+                                        <g-link class="nav__link" to="/">All Jobs</g-link> -->
                 <!--                        <g-link class="nav__link" to="/aortic">Aortic</g-link>-->
 <!--                        <g-link class="nav__link" to="/heart">Heart</g-link>-->
-                        <g-link class="nav__link" to="/cardiovascular">Cardiovascular Jobs</g-link>
 <!--                        <g-link class="nav__link" to="/medical">Medical</g-link>-->
-
 <!--                <g-link class="nav__link" >Medical</g-link>-->
 <!--                <g-link class="nav__link">Aortic</g-link>-->
 <!--                <g-link class="nav__link" >Heart</g-link>-->
 <!--                <g-link class="nav__link" >Cardiovascular</g-link>-->
-
-            </nav>
+            <!--    </nav> -->
         </header>
 
 
