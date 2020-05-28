@@ -208,7 +208,7 @@
     }
 
     .job-search .banner-inner{
-        display: block;
+        display: grid;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
