@@ -35,7 +35,6 @@
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
-        min-width: 40%;
     }
 
     .gaps-col-6 {
@@ -209,12 +208,22 @@
     }
 
     .job-search .banner-inner{
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         min-height: 350px;
     }
+
+    /*.job-search .gaps-container{*/
+    /*    position: absolute;*/
+    /*    top: 60%;*/
+    /*    left:20%;*/
+    /*    -ms-transform: translateY(-50%);*/
+    /*    transform: translateY(-50%);*/
+    /*}*/
+
+
 
     .box-wrapper .container{
         max-width: 985px;
