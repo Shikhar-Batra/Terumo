@@ -208,13 +208,15 @@
     }
 
     .job-search .banner-inner{
-        display: grid;
+        display: block;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         min-height: 350px;
     }
-
+.custom-margin-top{
+    margin-top:70px;
+}
     /*.job-search .gaps-container{*/
     /*    position: absolute;*/
     /*    top: 60%;*/
@@ -779,6 +781,12 @@
     }
 
     @media only screen and (max-width: 767px) {
+
+        .custom-margin-top{
+            margin-top:0px;
+        }
+
+
 
         .box-container .box {
             margin-bottom: 10px;

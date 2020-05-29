@@ -45,6 +45,7 @@
                             <div class="gaps-container">
                                 <div class="gaps-row">
                                     <div class="gaps-col-12">
+                                    <div class="custom-margin-top">
                                         <div class="banner-inner">
 
                                             <div class="gaps-row">
@@ -110,6 +111,7 @@
                                                 </div>
 
                                             </div>
+                                        </div>
                                         </div>
                                     </div>
 
