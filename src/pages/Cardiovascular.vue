@@ -586,8 +586,72 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
     }
 </script>
 
-<style>
+<style scoped>
+    .v-icon.icon-technician{
+        display: none;    }
 
+    .box-bg:hover .v-icon.icon-technician {
+        display: none;    }
+
+
+    .box-bg {
+        min-height: 280px;
+    }
+
+
+    .v-icon.icon-product{
+        display: none;    }
+
+    .box-bg:hover .v-icon.icon-product {
+        display: none;    }
+
+
+
+
+    .v-icon.icon-marketing{
+        display: none;    }
+
+    .box-bg:hover .v-icon.icon-marketing {
+        display: none;    }
+
+    .v-icon.icon-assembler{
+        display: none;    }
+
+    .box-bg:hover .v-icon.icon-assembler {
+        display: none;    }
+
+
+
+    .v-icon.icon-operations{
+        display: none;    }
+
+    .box-bg:hover .v-icon.icon-operations {
+        display: none;    }
+
+
+
+    .v-icon.icon-engineer{
+        display: none;    }
+
+    .box-bg:hover .v-icon.icon-engineer {
+        display: none;    }
+
+
+    .v-icon.icon-worker{
+        display: none;    }
+
+    .box-bg:hover .v-icon.icon-worker {
+        display: none;
+    }
+    .v-icon.quality {
+        /*background-image: unset;*/
+        display: none;
+    }
+
+    .box-bg:hover .v-icon.quality {
+        /*background-image: url(../assets/icons/quality-white.svg);*/
+        display: none;
+    }
 
 
 </style>
