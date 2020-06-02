@@ -2,14 +2,12 @@
     <footer class="f_footer">
         <div class="p_inner">
             <ul class="p_link">
-                <li><a href="https://www.terumo.com/term_of_use/">Terms and Conditions of Use</a></li>
+                <li><a href="https://www.terumomedical.com/tmc-disclaimer.html">Disclaimer</a></li>
+                <li><a href="https://www.terumomedical.com/terms-of-use.html">Terms and Conditions of Use</a></li>
                 <li><a href="https://www.terumo.com/sitemap/">Site Map</a></li>
-                <li><a href="https://www.terumo.com/privacy_policy/">Privacy Policy</a></li>
-<!--                <li><a href="https://www.terumo.com/socialmedia_policy/">Social Media Policy</a></li>-->
+                <li><a href="https://www.terumomedical.com/privacy-policy.html">Privacy Policy</a></li>
             </ul>
-<!--            <p class="p_copyright">Copyright (C) Terumo Corporation, All Rights Reserved.</p>-->
             <p class="p_copyright">   © {{new Date().getFullYear()}}  Terumo Medical Corporation</p>
-
         </div>
     </footer>
 
@@ -18,7 +16,7 @@
 
 <script>
     export default {
-        name: 'GlobalFooter',
+        name: 'MedicalFooter',
         data () {
             return{
 

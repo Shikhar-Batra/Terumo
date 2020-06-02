@@ -17,9 +17,9 @@
                 <!--                        <g-link class="nav__link" to="/aortic">Aortic</g-link>-->
 <!--                        <g-link class="nav__link" to="/heart">Heart</g-link>-->
 <!--                        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>-->
-                        <g-link class="nav__link" to="/medical">Medical Jobs</g-link>
+<!--                        <g-link class="nav__link" to="/medical">Medical Jobs</g-link>-->
                         <g-link class="nav__link" to="https://www.terumomedical.com/about.html">About Terumo</g-link>
-                        <g-link class="nav__link" to="https://www.terumomedical.com/solutions/terumo-interventional-systems.html">Terumo Interventional Systems</g-link>
+                        <g-link class="nav__link" to="https://www.terumois.com/">Terumo Interventional Systems</g-link>
                         <g-link class="nav__link" to="https://www.terumotmp.com/">Terumo Medical Products</g-link>
 
 <!--                <g-link class="nav__link" >Medical</g-link>-->
@@ -33,16 +33,16 @@
 
 
         <slot/>
-        <global-footer></global-footer>
+        <medical-footer></medical-footer>
     </div>
 </template>
 
 <script>
-    import GlobalFooter from "~/components/GlobalFooter.vue";
+    import MedicalFooter from "~/components/MedicalFooter.vue";
 
     export default {
         components: {
-            "global-footer": GlobalFooter
+            "medical-footer": MedicalFooter
         },
         mounted() {
         }
