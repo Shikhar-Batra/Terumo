@@ -2,10 +2,10 @@
     <footer class="f_footer">
         <div class="p_inner">
             <ul class="p_link">
-                <li><a href="https://www.terumomedical.com/tmc-disclaimer.html">Disclaimer</a></li>
-                <li><a href="https://www.terumomedical.com/terms-of-use.html">Terms and Conditions of Use</a></li>
-                <li><a href="https://www.terumo.com/sitemap/">Site Map</a></li>
-                <li><a href="https://www.terumomedical.com/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="https://www.terumomedical.com/tmc-disclaimer.html" target="_blank">Disclaimer</a></li>
+                <li><a href="https://www.terumomedical.com/terms-of-use.html" target="_blank">Terms and Conditions of Use</a></li>
+<!--                <li><a href="https://www.terumo.com/sitemap/">Site Map</a></li>-->
+                <li><a href="https://www.terumomedical.com/privacy-policy.html" target="_blank">Privacy Policy</a></li>
             </ul>
             <p class="p_copyright">   © {{new Date().getFullYear()}}  Terumo Medical Corporation</p>
         </div>

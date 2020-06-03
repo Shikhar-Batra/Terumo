@@ -2,9 +2,9 @@
     <footer class="f_footer">
         <div class="p_inner">
             <ul class="p_link">
-                <li><a href="https://www.terumo.com/term_of_use/">Terms and Conditions of Use</a></li>
-                <li><a href="https://www.terumo.com/sitemap/">Site Map</a></li>
-                <li><a href="https://www.terumo.com/privacy_policy/">Privacy Policy</a></li>
+                <li><a href="https://www.terumo.com/term_of_use/" target="_blank">Terms and Conditions of Use</a></li>
+<!--                <li><a href="https://www.terumo.com/sitemap/">Site Map</a></li>-->
+                <li><a href="https://www.terumo.com/privacy_policy/" target="_blank">Privacy Policy</a></li>
 <!--                <li><a href="https://www.terumo.com/socialmedia_policy/">Social Media Policy</a></li>-->
             </ul>
 <!--            <p class="p_copyright">Copyright (C) Terumo Corporation, All Rights Reserved.</p>-->
