@@ -587,16 +587,20 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
 </script>
 
 <style scoped>
+
+
+    .box-bg {
+        min-height: 280px;
+    }
+
+
+
     .v-icon.icon-technician{
         display: none;    }
 
     .box-bg:hover .v-icon.icon-technician {
         display: none;    }
 
-
-    .box-bg {
-        min-height: 280px;
-    }
 
 
     .v-icon.icon-product{

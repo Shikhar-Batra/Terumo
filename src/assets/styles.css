@@ -264,80 +264,149 @@
         color: #fff;
     }
 
+
+
     .v-icon.icon-technician{
-        background-image: url(../assets/icons/technician.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-technician {
-        background-image: url(../assets/icons/technician-white.svg);
-    }
-
-
+        display: none;    }
 
 
 
     .v-icon.icon-product{
-        background-image: url(../assets/icons/product.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-product {
-        background-image: url(../assets/icons/product-white.svg);
-    }
+        display: none;    }
 
 
 
 
     .v-icon.icon-marketing{
-        background-image: url(../assets/icons/digital-marketing.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-marketing {
-        background-image: url(../assets/icons/digital-marketing-white.svg);
-    }
+        display: none;    }
 
     .v-icon.icon-assembler{
-        background-image: url(../assets/icons/assembler.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-assembler {
-        background-image: url(../assets/icons/assembler-white.svg);
-    }
+        display: none;    }
 
 
 
     .v-icon.icon-operations{
-        background-image: url(../assets/icons/operation.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-operations {
-        background-image: url(../assets/icons/operation-white.svg);
-    }
+        display: none;    }
 
 
 
     .v-icon.icon-engineer{
-        background-image: url(../assets/icons/engineer.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-engineer {
-        background-image: url(../assets/icons/engineer-white.svg);
-    }
+        display: none;    }
 
-    .v-icon.quality {
-        background-image: url(../assets/icons/quality.svg);
-    }
 
     .v-icon.icon-worker{
-        background-image: url(../assets/icons/worker.svg);
-    }
+        display: none;    }
 
     .box-bg:hover .v-icon.icon-worker {
-        background-image: url(../assets/icons/worker-white.svg);
+        display: none;
+    }
+    .v-icon.quality {
+        /*background-image: unset;*/
+        display: none;
     }
 
     .box-bg:hover .v-icon.quality {
-        background-image: url(../assets/icons/quality-white.svg);
+        /*background-image: url(../assets/icons/quality-white.svg);*/
+        display: none;
     }
+
+
+
+
+
+
+    /*.v-icon.icon-technician{*/
+    /*    background-image: url(../assets/icons/technician.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-technician {*/
+    /*    background-image: url(../assets/icons/technician-white.svg);*/
+    /*}*/
+
+
+
+
+
+    /*.v-icon.icon-product{*/
+    /*    background-image: url(../assets/icons/product.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-product {*/
+    /*    background-image: url(../assets/icons/product-white.svg);*/
+    /*}*/
+
+
+
+
+    /*.v-icon.icon-marketing{*/
+    /*    background-image: url(../assets/icons/digital-marketing.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-marketing {*/
+    /*    background-image: url(../assets/icons/digital-marketing-white.svg);*/
+    /*}*/
+
+    /*.v-icon.icon-assembler{*/
+    /*    background-image: url(../assets/icons/assembler.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-assembler {*/
+    /*    background-image: url(../assets/icons/assembler-white.svg);*/
+    /*}*/
+
+
+
+    /*.v-icon.icon-operations{*/
+    /*    background-image: url(../assets/icons/operation.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-operations {*/
+    /*    background-image: url(../assets/icons/operation-white.svg);*/
+    /*}*/
+
+
+
+    /*.v-icon.icon-engineer{*/
+    /*    background-image: url(../assets/icons/engineer.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-engineer {*/
+    /*    background-image: url(../assets/icons/engineer-white.svg);*/
+    /*}*/
+
+    /*.v-icon.quality {*/
+    /*    background-image: url(../assets/icons/quality.svg);*/
+    /*}*/
+
+    /*.v-icon.icon-worker{*/
+    /*    background-image: url(../assets/icons/worker.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.icon-worker {*/
+    /*    background-image: url(../assets/icons/worker-white.svg);*/
+    /*}*/
+
+    /*.box-bg:hover .v-icon.quality {*/
+    /*    background-image: url(../assets/icons/quality-white.svg);*/
+    /*}*/
 
 
     .gaps-icon-company{
@@ -393,7 +462,7 @@
         transition: all .2s ease;
         -webkit-transition: all .2s ease;
         -moz-transition: all .2s ease;
-        min-height: 300px;
+        min-height: 280px;
     }
 
     .box-bg:hover{
