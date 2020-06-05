@@ -25,11 +25,12 @@
                 <div class="box-inner  pt50 pb50">
                   <div class="box-heading text-center">
                     <div class="max-width">
-                      <h4 class="gaps-title">Thank you for visiting the Terumo Aortic Group Career Center
+                      <h4 class="gaps-title">ABOUT TERUMO AORTIC
                       </h4>
-                      <p class="font14">Here you can view and apply for current job openings at Terumo Aortic, Inc. within the United States.<br/>
-                      For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.<br/>
-                        For technical questions, <a href="">contact us</a>.</p>
+                      <p class="font14">At Terumo Aortic, our mission is to transform the treatment of aortic disease worldwide. With our comprehensive portfolio of surgical, endovascular and hybrid technologies, we enable physicians to find the right fit for each patient anatomy.</p>
+                      <p class="font14"> The company has over 1,250 associates around the world with manufacturing facilities in Glasgow, Scotland and Sunrise, Florida.<br/>
+                        Terumo Aortic is focused on the continuing development of new and innovative products driving the growth of the business globally. Associates are part of a stimulating and exciting environment in which they can develop their skills and achieve career goals. Working for the company, each associate’s role contributes greatly to helping to save or improve the lives of patients in over 100 countries worldwide.<br/>
+                        For technical questions, <a href="http://www.terumoaortic.com/" target="_blank">http://www.terumoaortic.com/</a>.</p>
                     </div>
                   </div>
                 </div>
