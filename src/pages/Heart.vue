@@ -2,7 +2,7 @@
     <Hlayout>
 
 
-        <body pagetitle="Job Search Welcome | Terumo CV Group" >
+        <body pagetitle="Job Search Welcome | Terumo CV Group">
         <!-- ngIf: bConfigMode -->
         <div id="homeContainer">
             <div class="home ng-scope noBkgImage" id="content">
@@ -27,8 +27,10 @@
                                         <div class="max-width">
                                             <h4 class="gaps-title">Thank you for visiting the Terumo Heart Career Center
                                             </h4>
-                                            <p class="font14">Here you can view and apply for current job openings at Terumo Heart, Inc. within the United States.<br/>
-                                             For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.<br/>
+                                            <p class="font14">Here you can view and apply for current job openings at
+                                                Terumo Heart, Inc. within the United States.<br/>
+                                                For job opportunities outside the U.S., view our locations around the
+                                                world and contact the office nearest you.<br/>
                                                 For technical questions, <a href="">contact us</a>.</p>
                                         </div>
                                     </div>
@@ -39,7 +41,6 @@
                     </div>
 
 
-
                     <div class="box-wrapper job-search">
                         <div class="banner-wrapper">
                             <div class="gaps-container">
@@ -47,72 +48,98 @@
                                     <div class="gaps-col-12">
                                         <div class="custom-margin-top">
 
-                                        <div class="banner-inner">
+                                            <div class="banner-inner">
 
-                                            <div class="gaps-row">
+                                                <div class="gaps-row">
 
-                                                <div class="gaps-col-12 ">
-                                                    <div class="banner-title">
-                                                        <h1 class="pb30 pt30">Search job opportunities that match your interests</h1>
+                                                    <div class="gaps-col-12 ">
+                                                        <div class="banner-title">
+                                                            <h1 class="pb30 pt30">Search job opportunities that match
+                                                                your interests</h1>
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                                <div class="gaps-col-12 ">
-                                                    <div class="banner-search">
+                                                    <div class="gaps-col-12 ">
+                                                        <div class="banner-search">
 
-                                                        <div class="banner-main bg-white ">
-                                                            <div class="p-4">
-                                                                <form action="#" class="search-job">
-                                                                    <div class="gaps-row no-gutters">
-                                                                        <div class="gaps-col-5 gaps-col-xs-6 bdr-r">
-                                                                            <div class="gaps-form-group">
-                                                                                <div class="form-field">
-                                                                                    <div class="icon"><span class="icon-location"></span></div>
-                                                                                    <select name="country" class="gaps-form-control">
-                                                                                        <option value="">USA</option>
-                                                                                        <option value="">United Kingdom</option>
-                                                                                        <option value="">India</option>
-                                                                                        <option value="">Canada</option>
+                                                            <div class="banner-main bg-white ">
+                                                                <div class="p-4">
+                                                                    <form action="#" class="search-job">
+                                                                        <div class="gaps-row no-gutters">
+                                                                            <div class="gaps-col-5 gaps-col-xs-6 bdr-r">
+                                                                                <div class="gaps-form-group">
+                                                                                    <div class="form-field">
+                                                                                        <div class="icon"><span
+                                                                                                class="icon-location"></span>
+                                                                                        </div>
+                                                                                        <select name="country"
+                                                                                                class="gaps-form-control">
+                                                                                            <option value="">USA
+                                                                                            </option>
+                                                                                            <option value="">United
+                                                                                                Kingdom
+                                                                                            </option>
+                                                                                            <option value="">India
+                                                                                            </option>
+                                                                                            <option value="">Canada
+                                                                                            </option>
 
-                                                                                    </select>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="gaps-col-5 gaps-col-xs-6">
-                                                                            <div class="gaps-form-group">
-                                                                                <div class="gaps-form-field">
-                                                                                    <div class="select-wrap">
-                                                                                        <div class="icon"><span class="icon-briefcase"></span></div>
-                                                                                        <select name="" id="Job" class="gaps-form-control">
-                                                                                            <option value="">Infrastructure</option>
-                                                                                            <option value="">Sales</option>
-                                                                                            <option value="">Marketing</option>
-                                                                                            <option value="">Consultant</option>
-                                                                                            <option value="">Trainee</option>
-                                                                                            <option value="">Project Manager</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="gaps-col-2 gaps-col-xs">
-                                                                            <div class="gaps-form-group">
-                                                                                <div class="gaps-form-field">
-                                                                                    <button type="submit" class="gaps-form-control btn btn-primary">Find it now</button>
+                                                                            <div class="gaps-col-5 gaps-col-xs-6">
+                                                                                <div class="gaps-form-group">
+                                                                                    <div class="gaps-form-field">
+                                                                                        <div class="select-wrap">
+                                                                                            <div class="icon"><span
+                                                                                                    class="icon-briefcase"></span>
+                                                                                            </div>
+                                                                                            <select name="" id="Job"
+                                                                                                    class="gaps-form-control">
+                                                                                                <option value="">
+                                                                                                    Infrastructure
+                                                                                                </option>
+                                                                                                <option value="">Sales
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Marketing
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Consultant
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Trainee
+                                                                                                </option>
+                                                                                                <option value="">Project
+                                                                                                    Manager
+                                                                                                </option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="gaps-col-2 gaps-col-xs">
+                                                                                <div class="gaps-form-group">
+                                                                                    <div class="gaps-form-field">
+                                                                                        <button type="submit"
+                                                                                                class="gaps-form-control btn btn-primary">
+                                                                                            Find it now
+                                                                                        </button>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                    </div>
-                                                                </form>
+                                                                    </form>
+                                                                </div>
+
                                                             </div>
 
                                                         </div>
-
                                                     </div>
-                                                </div>
 
+                                                </div>
                                             </div>
-                                        </div>
                                         </div>
                                     </div>
 
@@ -122,21 +149,11 @@
                         </div>
 
 
-
                         <div class="gaps-container-fluid">
                             <div class="gaps-row">
                                 <div class="gaps-col-12">
-                                    <!--                  <div class="box-inner pt50 pb50">-->
                                     <div class="box-inner pb50">
-                                        <!--                    <div class="box-heading text-center">-->
-                                        <!--                      <div class="max-width">-->
-                                        <!--                        <h4 class="gaps-title">Thank you for visiting the Terumo Cardiovascular Group Career Center-->
-                                        <!--                        </h4>-->
-                                        <!--                        <p class="font14">Here you can view and apply for current job openings at Terumo Cardiovascular Group and Terumo Heart, Inc. within the United States.-->
-                                        <!--                          For job opportunities outside the U.S., view our locations around the world and contact the office nearest you.-->
-                                        <!--                          For technical questions, <a href="">contact us</a>.</p>-->
-                                        <!--                      </div>-->
-                                        <!--                    </div>-->
+
                                         <div class="box-container pt50">
                                             <div class="gaps-row">
                                                 <div class="gaps-col-3 gaps-col-xs-6">
@@ -167,7 +184,6 @@
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -186,12 +202,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -222,7 +235,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -241,12 +253,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -277,7 +286,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -296,12 +304,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -332,7 +337,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -351,12 +355,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -387,7 +388,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -406,12 +406,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -442,7 +439,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -461,12 +457,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -497,7 +490,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                                 </div>
 
 
-
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
@@ -516,12 +508,9 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                                                             </div>
 
 
-
                                                         </div>
 
                                                     </div>
-
-
 
 
                                                 </div>
@@ -564,7 +553,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
                     </div>
 
 
-
                 </div>
 
             </div>
@@ -588,7 +576,6 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
 </script>
 
 <style>
-
 
 
 </style>

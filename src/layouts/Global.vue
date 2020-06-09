@@ -1,8 +1,6 @@
 <template>
     <div class="new-layout">
         <div class="primaryHeaderLogoWrapperLink">
-            <!--                  <img ng-if="! bNull" class="primaryHeaderLogo" alt="Terumo CV Group" dynamic-load-callback="" brand-property="primaryHeaderLogo" ng-src="https://sjobs.brassring.com/img/images_25987_5326/images/img_terumoLogo-TCG.png" src="./Job Search Welcome_files/img_terumoLogo-TCG.png">&lt;!&ndash; end ngIf: ! bNull &ndash;&gt;&lt;!&ndash; ngIf: bNull &ndash;&gt;
-            -->
             <a href="/">
                 <g-image src="~/terumo-logo.png" alt="Terumo CV Group" class="primaryHeaderLogo"></g-image>
             </a>&nbsp;
@@ -17,16 +15,8 @@
                         <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>
                         <g-link class="nav__link" to="/medical">Medical</g-link>
 
-<!--                <g-link class="nav__link" >Medical</g-link>-->
-<!--                <g-link class="nav__link">Aortic</g-link>-->
-<!--                <g-link class="nav__link" >Heart</g-link>-->
-<!--                <g-link class="nav__link" >Cardiovascular</g-link>-->
-
             </nav>
         </header>
-
-
-
         <slot/>
         <global-footer></global-footer>
     </div>
@@ -175,19 +165,6 @@
               margin: 0 auto;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </style>

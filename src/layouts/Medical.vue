@@ -1,8 +1,6 @@
 <template>
     <div class="medical-layout">
         <div class="primaryHeaderLogoWrapperLink">
-            <!--                  <img ng-if="! bNull" class="primaryHeaderLogo" alt="Terumo CV Group" dynamic-load-callback="" brand-property="primaryHeaderLogo" ng-src="https://sjobs.brassring.com/img/images_25987_5326/images/img_terumoLogo-TCG.png" src="./Job Search Welcome_files/img_terumoLogo-TCG.png">&lt;!&ndash; end ngIf: ! bNull &ndash;&gt;&lt;!&ndash; ngIf: bNull &ndash;&gt;
-            -->
             <a href="/medical">
                 <g-image src="~/terumo_medical_logo.png" alt="Terumo CV Group" class="primaryHeaderLogo"></g-image>
             </a>&nbsp;
@@ -14,24 +12,11 @@
             <nav class="nav">
                 <g-link class="nav__link" to="/">All Jobs</g-link>
 
-                <!--                        <g-link class="nav__link" to="/aortic">Aortic</g-link>-->
-<!--                        <g-link class="nav__link" to="/heart">Heart</g-link>-->
-<!--                        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>-->
-<!--                        <g-link class="nav__link" to="/medical">Medical Jobs</g-link>-->
-                        <g-link class="nav__link" to="https://www.terumomedical.com/about.html">About Terumo</g-link>
-                        <g-link class="nav__link" to="https://www.terumois.com/">Terumo Interventional Systems</g-link>
-                        <g-link class="nav__link" to="https://www.terumotmp.com/">Terumo Medical Products</g-link>
-
-<!--                <g-link class="nav__link" >Medical</g-link>-->
-<!--                <g-link class="nav__link">Aortic</g-link>-->
-<!--                <g-link class="nav__link" >Heart</g-link>-->
-<!--                <g-link class="nav__link" >Cardiovascular</g-link>-->
-
+                <g-link class="nav__link" to="https://www.terumomedical.com/about.html">About Terumo</g-link>
+                <g-link class="nav__link" to="https://www.terumois.com/">Terumo Interventional Systems</g-link>
+                <g-link class="nav__link" to="https://www.terumotmp.com/">Terumo Medical Products</g-link>
             </nav>
         </header>
-
-
-
         <slot/>
         <medical-footer></medical-footer>
     </div>
@@ -52,11 +37,11 @@
 <style scoped>
     body {
         /*font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
-        font-family: Barlow,Arial,sans-serif;
-        margin:0;
-        padding:0;
+        font-family: Barlow, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
         line-height: 1.5;
-        body:#415364;
+        body: #415364;
     }
 
 
@@ -66,6 +51,7 @@
         /*padding-left: 20px;*/
         /*padding-right: 20px;*/
     }
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -98,27 +84,26 @@
     /*}*/
 
 
-
     img.primaryHeaderLogo {
         height: 35px;
         width: auto;
 
     }
 
-    header.nav{
-        float:left;
-        margin:0 20px;
+    header.nav {
+        float: left;
+        margin: 0 20px;
 
     }
 
-    @media (min-width: 576px){
+    @media (min-width: 576px) {
 
-        .header{
+        .header {
             max-width: 540px;
             margin: 0 auto;
         }
 
-        .primaryHeaderLogoWrapperLink{
+        .primaryHeaderLogoWrapperLink {
             max-width: 540px;
             margin: 0 auto;
         }
@@ -127,26 +112,27 @@
 
     @media (min-width: 768px) {
 
-        .header{
+        .header {
             max-width: 720px;
             margin: 0 auto;
         }
 
-        .primaryHeaderLogoWrapperLink{
+        .primaryHeaderLogoWrapperLink {
             max-width: 720px;
             margin: 0 auto;
         }
 
 
     }
+
     @media (min-width: 992px) {
 
-        .header{
+        .header {
             max-width: 960px;
             margin: 0 auto;
         }
 
-        .primaryHeaderLogoWrapperLink{
+        .primaryHeaderLogoWrapperLink {
             max-width: 960px;
             margin: 0 auto;
         }
@@ -156,11 +142,12 @@
 
     @media (min-width: 1200px) {
 
-        .header{
+        .header {
             max-width: 1140px;
             margin: 0 auto;
         }
-        .primaryHeaderLogoWrapperLink{
+
+        .primaryHeaderLogoWrapperLink {
             max-width: 1140px;
             margin: 0 auto;
         }
@@ -169,30 +156,17 @@
     }
 
     @media (min-width: 1600px) {
-        .header{
+        .header {
             max-width: 1440px;
             margin: 0 auto;
         }
 
 
-        .primaryHeaderLogoWrapperLink{
+        .primaryHeaderLogoWrapperLink {
             max-width: 1440px;
-              margin: 0 auto;
+            margin: 0 auto;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </style>
