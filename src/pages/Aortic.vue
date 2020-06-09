@@ -1,587 +1,342 @@
 <template>
-  <Alayout>
+    <Alayout>
 
 
-    <body pagetitle="Job Search Welcome | Terumo CV Group">
-    <!-- ngIf: bConfigMode -->
-    <div id="homeContainer">
-      <div class="home ng-scope noBkgImage" id="content">
-        <div class="homeContentLiner">
-          <div class="ng-scope">
-            <div class="pageHeaderContainer ng-scope">
-              <div class="pageHeader clearfix">
-                <div class="rightIcons">
-                </div>
-              </div>
+        <body pagetitle="Job Search Welcome | Terumo CV Group">
+        <!-- ngIf: bConfigMode -->
+        <div id="homeContainer">
+            <div class="home ng-scope noBkgImage" id="content">
+                <div class="homeContentLiner">
+                    <div class="ng-scope">
+                        <div class="pageHeaderContainer ng-scope">
+                            <div class="pageHeader clearfix">
+                                <div class="rightIcons">
+                                </div>
+                            </div>
 
-            </div>
-          </div>
-          <!--GAPS-->
-
-
-          <div class="gaps-container-fluid">
-            <div class="gaps-row">
-              <div class="gaps-col-12">
-                <div class="box-inner  pt50 pb50">
-                  <div class="box-heading text-center">
-                    <div class="max-width">
-                      <h4 class="gaps-title">ABOUT TERUMO AORTIC
-                      </h4>
-                      <p class="font14">At Terumo Aortic, our mission is to transform the
-                        treatment of aortic disease worldwide. With our comprehensive portfolio
-                        of surgical, endovascular and hybrid technologies, we enable physicians
-                        to find the right fit for each patient anatomy.</p>
-                      <p class="font14"> The company has over 1,250 associates around the world
-                        with manufacturing facilities in Glasgow, Scotland and Sunrise, Florida.<br/>
-                        Terumo Aortic is focused on the continuing development of new and
-                        innovative products driving the growth of the business globally.
-                        Associates are part of a stimulating and exciting environment in which
-                        they can develop their skills and achieve career goals. Working for the
-                        company, each associate’s role contributes greatly to helping to save or
-                        improve the lives of patients in over 100 countries worldwide.<br/>
-                        For technical questions, <a href="http://www.terumoaortic.com/"
-                                                    target="_blank">http://www.terumoaortic.com/</a>.
-                      </p>
+                        </div>
                     </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
+                    <!--GAPS-->
 
 
-          <div class="box-wrapper job-search">
-            <div class="banner-wrapper">
-              <div class="gaps-container">
-                <div class="gaps-row">
-                  <div class="gaps-col-12">
-                    <div class="custom-margin-top">
-
-                      <div class="banner-inner">
-
+                    <div class="gaps-container-fluid">
                         <div class="gaps-row">
-
-                          <div class="gaps-col-12 ">
-                            <div class="banner-title">
-                              <h1 class="pb30 pt30">Search job opportunities that match
-                                your interests</h1>
-                            </div>
-                          </div>
-
-                          <div class="gaps-col-12 ">
-                            <div class="banner-search">
-
-                              <div class="banner-main bg-white ">
-                                <div class="p-4">
-                                  <form action="#" class="search-job">
-                                    <div class="gaps-row no-gutters">
-                                      <div class="gaps-col-5 gaps-col-xs-6 bdr-r">
-                                        <div class="gaps-form-group">
-                                          <div class="form-field">
-                                            <div class="icon"><span
-                                                    class="icon-location"></span>
-                                            </div>
-                                            <select name="country"
-                                                    class="gaps-form-control">
-                                              <option value="">USA
-                                              </option>
-                                              <option value="">United
-                                                Kingdom
-                                              </option>
-                                              <option value="">India
-                                              </option>
-                                              <option value="">Canada
-                                              </option>
-
-                                            </select>
-                                          </div>
+                            <div class="gaps-col-12">
+                                <div class="box-inner  pt50 pb50">
+                                    <div class="box-heading text-center">
+                                        <div class="max-width">
+                                            <h4 class="gaps-title">ABOUT TERUMO AORTIC
+                                            </h4>
+                                            <p class="font14">At Terumo Aortic, our mission is to transform the
+                                                treatment of aortic disease worldwide. With our comprehensive portfolio
+                                                of surgical, endovascular and hybrid technologies, we enable physicians
+                                                to find the right fit for each patient anatomy.</p>
+                                            <p class="font14"> The company has over 1,250 associates around the world
+                                                with manufacturing facilities in Glasgow, Scotland and Sunrise, Florida.<br/>
+                                                Terumo Aortic is focused on the continuing development of new and
+                                                innovative products driving the growth of the business globally.
+                                                Associates are part of a stimulating and exciting environment in which
+                                                they can develop their skills and achieve career goals. Working for the
+                                                company, each associate’s role contributes greatly to helping to save or
+                                                improve the lives of patients in over 100 countries worldwide.<br/>
+                                                For technical questions, <a href="http://www.terumoaortic.com/"
+                                                                            target="_blank">http://www.terumoaortic.com/</a>.
+                                            </p>
                                         </div>
-                                      </div>
-                                      <div class="gaps-col-5 gaps-col-xs-6">
-                                        <div class="gaps-form-group">
-                                          <div class="gaps-form-field">
-                                            <div class="select-wrap">
-                                              <div class="icon"><span
-                                                      class="icon-briefcase"></span>
-                                              </div>
-                                              <select name="" id="Job"
-                                                      class="gaps-form-control">
-                                                <option value="">
-                                                  Infrastructure
-                                                </option>
-                                                <option value="">Sales
-                                                </option>
-                                                <option value="">
-                                                  Marketing
-                                                </option>
-                                                <option value="">
-                                                  Consultant
-                                                </option>
-                                                <option value="">
-                                                  Trainee
-                                                </option>
-                                                <option value="">Project
-                                                  Manager
-                                                </option>
-                                              </select>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="gaps-col-2 gaps-col-xs">
-                                        <div class="gaps-form-group">
-                                          <div class="gaps-form-field">
-                                            <button type="submit"
-                                                    class="gaps-form-control btn btn-primary">
-                                              Find it now
-                                            </button>
-                                          </div>
-                                        </div>
-                                      </div>
                                     </div>
-                                  </form>
                                 </div>
 
-                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="box-wrapper job-search">
+                        <div class="banner-wrapper">
+                            <div class="gaps-container">
+                                <div class="gaps-row">
+                                    <div class="gaps-col-12">
+                                        <div class="custom-margin-top">
+
+                                            <div class="banner-inner">
+
+                                                <div class="gaps-row">
+
+                                                    <div class="gaps-col-12 ">
+                                                        <div class="banner-title">
+                                                            <h1 class="pb30 pt30">Search job opportunities that match
+                                                                your interests</h1>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="gaps-col-12 ">
+                                                        <div class="banner-search">
+
+                                                            <div class="banner-main bg-white ">
+                                                                <div class="p-4">
+                                                                    <form action="#" class="search-job">
+                                                                        <div class="gaps-row no-gutters">
+                                                                            <div class="gaps-col-5 gaps-col-xs-6 bdr-r">
+                                                                                <div class="gaps-form-group">
+                                                                                    <div class="form-field">
+                                                                                        <div class="icon"><span
+                                                                                                class="icon-location"></span>
+                                                                                        </div>
+                                                                                        <select name="country"
+                                                                                                class="gaps-form-control">
+                                                                                            <option value="">USA
+                                                                                            </option>
+                                                                                            <option value="">United
+                                                                                                Kingdom
+                                                                                            </option>
+                                                                                            <option value="">India
+                                                                                            </option>
+                                                                                            <option value="">Canada
+                                                                                            </option>
+
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="gaps-col-5 gaps-col-xs-6">
+                                                                                <div class="gaps-form-group">
+                                                                                    <div class="gaps-form-field">
+                                                                                        <div class="select-wrap">
+                                                                                            <div class="icon"><span
+                                                                                                    class="icon-briefcase"></span>
+                                                                                            </div>
+                                                                                            <select name="" id="Job"
+                                                                                                    class="gaps-form-control">
+                                                                                                <option value="">
+                                                                                                    Infrastructure
+                                                                                                </option>
+                                                                                                <option value="">Sales
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Marketing
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Consultant
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Trainee
+                                                                                                </option>
+                                                                                                <option value="">Project
+                                                                                                    Manager
+                                                                                                </option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="gaps-col-2 gaps-col-xs">
+                                                                                <div class="gaps-form-group">
+                                                                                    <div class="gaps-form-field">
+                                                                                        <button type="submit"
+                                                                                                class="gaps-form-control btn btn-primary">
+                                                                                            Find it now
+                                                                                        </button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
 
                             </div>
-                          </div>
-
                         </div>
-                      </div>
+
+
+                        <div class="gaps-container-fluid">
+                            <div class="gaps-row">
+                                <div class="gaps-col-12">
+                                    <div class="box-inner pb50">
+                                        <div class="box-container pt50">
+                                            <div class="gaps-row">
+                                                <div class="gaps-col-3 gaps-col-xs-6" v-for="listJob in listJobs">
+
+                                                    <div class="box">
+
+                                                        <div class="box-bg">
+
+                                                            <div class="v-icon quality">
+                                                                <span></span>
+                                                            </div>
+
+                                                            <div class="box-details">
+
+                                                                <div class="box-title">
+<!--                                                                    <small class="txt-muted">9028BR</small>-->
+
+                                                                    <h2>{{listJob.text}}</h2>
+                                                                </div>
+
+                                                                <div class="box-height"></div>
+
+                                                                <div class="box-sub-title">
+                                                                    <span class="gaps-icon gaps-icon-company"></span>
+
+                                                                    <span class="bold text-dark gaps-txt"> {{listJob.categories.team}}</span>
+                                                                </div>
+
+
+                                                                <div class="box-sub-title pt10">
+
+                                                                    <span class="gaps-icon gaps-icon-location"></span>
+
+                                                                    <span class="bold text-dark gaps-txt"> {{listJob.categories.location}}</span>
+                                                                </div>
+
+                                                                <div class="box-sub-title pt10">
+
+                                                                    <span class="gaps-icon gaps-icon-description"></span>
+
+                                                                    <span class="bold text-dark gaps-txt"> {{listJob.additionalPlain.slice(0,50)}}<a href=""> ... read more</a></span>
+                                                                </div>
+
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+
 
                 </div>
 
-              </div>
             </div>
-
-
-            <div class="gaps-container-fluid">
-              <div class="gaps-row">
-                <div class="gaps-col-12">
-                  <div class="box-inner pb50">
-                    <div class="box-container pt50">
-                      <div class="gaps-row">
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon quality">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Senior Consultant
-                                    JDE CNC</h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon icon-worker">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Production Worker II </h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon icon-engineer">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Senior Engineer II</h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon icon-operations">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Manager, Operations</h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon icon-assembler">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Assembler I</h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon icon-marketing">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Manager, Marketing</h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-
-                          <div class="box">
-
-                            <div class="box-bg">
-
-                              <div class="v-icon icon-product">
-                                <span></span>
-                              </div>
-
-                              <div class="box-details">
-
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-
-                                  <h2>Senior Product Manager</h2>
-                                </div>
-
-                                <div class="box-height"></div>
-
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-location"></span>
-
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-
-                                <div class="box-sub-title pt10">
-
-                                  <span class="gaps-icon gaps-icon-description"></span>
-
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-
-                          </div>
-
-
-                        </div>
-                        <div class="gaps-col-3 gaps-col-xs-6">
-                          <div class="box">
-                            <div class="box-bg">
-                              <div class="v-icon icon-technician">
-                                <span></span>
-                              </div>
-                              <div class="box-details">
-                                <div class="box-title">
-                                  <small class="txt-muted">9028BR</small>
-                                  <h2>Manufacturing Technician</h2>
-                                </div>
-                                <div class="box-height"></div>
-                                <div class="box-sub-title">
-                                  <span class="gaps-icon gaps-icon-company"></span>
-                                  <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                </div>
-                                <div class="box-sub-title pt10">
-                                  <span class="gaps-icon gaps-icon-location"></span>
-                                  <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                </div>
-                                <div class="box-sub-title pt10">
-                                  <span class="gaps-icon gaps-icon-description"></span>
-                                  <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
         </div>
 
-      </div>
 
+        </body>
 
-    </div>
-
-
-    </body>
-
-  </Alayout>
+    </Alayout>
 </template>
 
 <script>
 
-  export default {
-    metaInfo: {
-      title: 'Aortic'
+    // export default {
+    //     metaInfo: {
+    //         title: 'Aortic'
+    //     }
+    // }
+    //
+
+
+    import axios from 'axios'
+    // import DropDown from "../components/Dropdown.vue";
+    // const Dropdown = require('/components/Dropdown')
+
+    export default {
+
+
+        metaInfo: {
+            title: 'Aortic'
+        },
+
+        // components: {
+        //     DropDown
+        // },
+        methods: {
+            async listAllJobs() {
+                await axios.get(`https://api.lever.co/v0/postings/terumo?department=Terumo%20Aortic`)
+                    .then(((jobRes) => {
+                        this.listJobs = jobRes.data;
+                        console.log(this.listJobs)
+                    }))
+            },
+
+            filteredJobs(data) {
+                this.JobPostings = data
+                // this.isLoading = false;
+            }
+
+
+        },
+        data() {
+            return {
+
+                // todos: null,
+                listJobs: null,
+                JobPostings: []
+
+
+            }
+        },
+        // metaInfo: {
+        //     title: 'Main'
+        // },
+
+        async mounted() {
+
+
+
+
+            this.listAllJobs()
+
+            // this.filteredJobs()
+
+
+            // async submit()
+            // {
+            //     let filterJobs
+            //     if (this.location == null && this.department == null) filterJobs = this.DropdownValues;
+            //     else filterJobs = (this.location !== null && this.department !== null) ? this.DropdownValues.filter((job: any) => job.categories.location === this.location && job.categories.department === this.department) : '' || (this.department !== '' && this.location === null) ? this.DropdownValues.filter((job: any) => job.categories.department === this.department) : '' || (this.location !== '' && this.department === null) ? this.DropdownValues.filter((job: any) => job.categories.location === this.location) : '';
+            //     await this.$emit('filterJobs', filterJobs)
+            // }
+
+
+
+            // async function listJobs(){
+            //     await axios.get(`https://api.lever.co/v0/postings/velocitycloud`)
+            //         .then(((jobRes) => {
+            //             this.JobPostings = jobRes.data;
+            //             console.log(this.JobPostings)
+            //
+            //         }))
+            //     console.log('Hi2')
+            // }
+
+
+
+
+        }
     }
-  }
+
+
+
+
+
+
+
+
+
+
 </script>
 <style>
 </style>

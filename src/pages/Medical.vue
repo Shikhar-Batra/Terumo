@@ -176,7 +176,7 @@
                                     <div class="box-inner pb50">
                                         <div class="box-container pt50">
                                             <div class="gaps-row">
-                                                <div class="gaps-col-3 gaps-col-xs-6">
+                                                <div class="gaps-col-3 gaps-col-xs-6"  v-for="listJob in listJobs">
 
                                                     <div class="box">
 
@@ -189,10 +189,9 @@
                                                             <div class="box-details">
 
                                                                 <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
+<!--                                                                    <small class="txt-muted">9028BR</small>-->
 
-                                                                    <h2>Senior Consultant
-                                                                        JDE CNC</h2>
+                                                                    <h2>{{listJob.text}}</h2>
                                                                 </div>
 
                                                                 <div class="box-height"></div>
@@ -200,7 +199,7 @@
                                                                 <div class="box-sub-title">
                                                                     <span class="gaps-icon gaps-icon-company"></span>
 
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
+                                                                    <span class="bold text-dark gaps-txt">{{listJob.categories.team}}</span>
                                                                 </div>
 
 
@@ -208,15 +207,14 @@
 
                                                                     <span class="gaps-icon gaps-icon-location"></span>
 
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
+                                                                    <span class="bold text-dark gaps-txt"> {{listJob.categories.location}}</span>
                                                                 </div>
 
                                                                 <div class="box-sub-title pt10">
 
                                                                     <span class="gaps-icon gaps-icon-description"></span>
 
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
+                                                                    <span class="bold text-dark gaps-txt"> {{listJob.additionalPlain.slice(0,50)}}<a href=""> ... read more</a></span>
                                                                 </div>
 
                                                             </div>
@@ -228,342 +226,7 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
 
 
                                                 </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
 
-                                                    <div class="box">
-
-                                                        <div class="box-bg">
-
-                                                            <div class="v-icon icon-worker">
-                                                                <span></span>
-                                                            </div>
-
-                                                            <div class="box-details">
-
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-
-                                                                    <h2>Production Worker II </h2>
-                                                                </div>
-
-                                                                <div class="box-height"></div>
-
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
-
-                                                    <div class="box">
-
-                                                        <div class="box-bg">
-
-                                                            <div class="v-icon icon-engineer">
-                                                                <span></span>
-                                                            </div>
-
-                                                            <div class="box-details">
-
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-
-                                                                    <h2>Senior Engineer II</h2>
-                                                                </div>
-
-                                                                <div class="box-height"></div>
-
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
-
-                                                    <div class="box">
-
-                                                        <div class="box-bg">
-
-                                                            <div class="v-icon icon-operations">
-                                                                <span></span>
-                                                            </div>
-
-                                                            <div class="box-details">
-
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-
-                                                                    <h2>Manager, Operations</h2>
-                                                                </div>
-
-                                                                <div class="box-height"></div>
-
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
-
-                                                    <div class="box">
-
-                                                        <div class="box-bg">
-
-                                                            <div class="v-icon icon-assembler">
-                                                                <span></span>
-                                                            </div>
-
-                                                            <div class="box-details">
-
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-
-                                                                    <h2>Assembler I</h2>
-                                                                </div>
-
-                                                                <div class="box-height"></div>
-
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
-
-                                                    <div class="box">
-
-                                                        <div class="box-bg">
-
-                                                            <div class="v-icon icon-marketing">
-                                                                <span></span>
-                                                            </div>
-
-                                                            <div class="box-details">
-
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-
-                                                                    <h2>Manager, Marketing</h2>
-                                                                </div>
-
-                                                                <div class="box-height"></div>
-
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
-
-                                                    <div class="box">
-
-                                                        <div class="box-bg">
-
-                                                            <div class="v-icon icon-product">
-                                                                <span></span>
-                                                            </div>
-
-                                                            <div class="box-details">
-
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-
-                                                                    <h2>Senior Product Manager</h2>
-                                                                </div>
-
-                                                                <div class="box-height"></div>
-
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-
-                                                                <div class="box-sub-title pt10">
-
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="gaps-col-3 gaps-col-xs-6">
-                                                    <div class="box">
-                                                        <div class="box-bg">
-                                                            <div class="v-icon icon-technician">
-                                                                <span></span>
-                                                            </div>
-                                                            <div class="box-details">
-                                                                <div class="box-title">
-                                                                    <small class="txt-muted">9028BR</small>
-                                                                    <h2>Manufacturing Technician</h2>
-                                                                </div>
-                                                                <div class="box-height"></div>
-                                                                <div class="box-sub-title">
-                                                                    <span class="gaps-icon gaps-icon-company"></span>
-                                                                    <span class="bold text-dark gaps-txt"> Terumo CV Group Elkton</span>
-                                                                </div>
-                                                                <div class="box-sub-title pt10">
-                                                                    <span class="gaps-icon gaps-icon-location"></span>
-                                                                    <span class="bold text-dark gaps-txt"> Ashland, United States</span>
-                                                                </div>
-                                                                <div class="box-sub-title pt10">
-                                                                    <span class="gaps-icon gaps-icon-description"></span>
-                                                                    <span class="bold text-dark gaps-txt"> This is a 2nd Shift Position
-Monday - Friday 3:00pm...<a href="">read more</a></span>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -588,11 +251,108 @@ Monday - Friday 3:00pm...<a href="">read more</a></span>
 
 <script>
 
+    // export default {
+    //     metaInfo: {
+    //         title: 'Medical'
+    //     }
+    // }
+
+
+    import axios from 'axios'
+    // import DropDown from "../components/Dropdown.vue";
+    // const Dropdown = require('/components/Dropdown')
+
     export default {
+
+
         metaInfo: {
             title: 'Medical'
+        },
+
+        // components: {
+        //     DropDown
+        // },
+        methods: {
+            async listAllJobs() {
+                await axios.get(`https://api.lever.co/v0/postings/terumo?department=Terumo%20Medical`)
+                    .then(((jobRes) => {
+                        this.listJobs = jobRes.data;
+                        console.log(this.listJobs)
+                    }))
+            },
+
+            filteredJobs(data) {
+                this.JobPostings = data
+                // this.isLoading = false;
+            }
+
+
+        },
+        data() {
+            return {
+
+                // todos: null,
+                listJobs: null,
+                JobPostings: []
+
+
+            }
+        },
+        // metaInfo: {
+        //     title: 'Main'
+        // },
+
+        async mounted() {
+
+
+
+
+            this.listAllJobs()
+
+            // this.filteredJobs()
+
+
+            // async submit()
+            // {
+            //     let filterJobs
+            //     if (this.location == null && this.department == null) filterJobs = this.DropdownValues;
+            //     else filterJobs = (this.location !== null && this.department !== null) ? this.DropdownValues.filter((job: any) => job.categories.location === this.location && job.categories.department === this.department) : '' || (this.department !== '' && this.location === null) ? this.DropdownValues.filter((job: any) => job.categories.department === this.department) : '' || (this.location !== '' && this.department === null) ? this.DropdownValues.filter((job: any) => job.categories.location === this.location) : '';
+            //     await this.$emit('filterJobs', filterJobs)
+            // }
+
+
+
+            // async function listJobs(){
+            //     await axios.get(`https://api.lever.co/v0/postings/velocitycloud`)
+            //         .then(((jobRes) => {
+            //             this.JobPostings = jobRes.data;
+            //             console.log(this.JobPostings)
+            //
+            //         }))
+            //     console.log('Hi2')
+            // }
+
+
+
+
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
 <style scoped>
