@@ -72,18 +72,14 @@
                                                                                         <div class="icon"><span
                                                                                                 class="icon-location"></span>
                                                                                         </div>
-                                                                                        <select name="country"
-                                                                                                class="gaps-form-control">
-                                                                                            <option value="">USA
+                                                                                        <select name="location" id="location" class="gaps-form-control"
+                                                                                                v-model="location" :options="allLocations">
+                                                                                            <option value=null disabled>All</option>
+                                                                                            <option v-for="DropdownValue in uniqueArrLoc"
+                                                                                                    :key="DropdownValue.index"
+                                                                                                    :value="DropdownValue">
+                                                                                                {{DropdownValue}}
                                                                                             </option>
-                                                                                            <option value="">United
-                                                                                                Kingdom
-                                                                                            </option>
-                                                                                            <option value="">India
-                                                                                            </option>
-                                                                                            <option value="">Canada
-                                                                                            </option>
-
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -95,24 +91,14 @@
                                                                                             <div class="icon"><span
                                                                                                     class="icon-briefcase"></span>
                                                                                             </div>
-                                                                                            <select name="" id="Job"
-                                                                                                    class="gaps-form-control">
-                                                                                                <option value="">
-                                                                                                    Infrastructure
-                                                                                                </option>
-                                                                                                <option value="">Sales
-                                                                                                </option>
-                                                                                                <option value="">
-                                                                                                    Marketing
-                                                                                                </option>
-                                                                                                <option value="">
-                                                                                                    Consultant
-                                                                                                </option>
-                                                                                                <option value="">
-                                                                                                    Trainee
-                                                                                                </option>
-                                                                                                <option value="">Project
-                                                                                                    Manager
+                                                                                            <select name="department" id="department"
+                                                                                                    class="gaps-form-control"
+                                                                                                    v-model="department" :options="allDepartments">
+                                                                                                <option value=null disabled>All</option>
+                                                                                                <option v-for="DropdownValue in uniqueArrDep"
+                                                                                                        :key="DropdownValue.index"
+                                                                                                        :value="DropdownValue">
+                                                                                                    {{DropdownValue}}
                                                                                                 </option>
                                                                                             </select>
                                                                                         </div>
@@ -194,7 +180,7 @@
 
                                                                     <span class="gaps-icon gaps-icon-description"></span>
 
-                                                                    <span class="bold text-dark gaps-txt"> {{listJob.additionalPlain.slice(0,50)}}<a href=""> ... read more</a></span>
+                                                                    <span class="bold text-dark gaps-txt"> {{listJob.additionalPlain.slice(0,70)}}<a href=""> ... read more</a></span>
                                                                 </div>
 
                                                             </div>
@@ -260,7 +246,7 @@
                 await axios.get(`https://api.lever.co/v0/postings/terumo?department=Terumo%20Heart`)
                     .then(((jobRes) => {
                         this.listJobs = jobRes.data;
-                        console.log(this.listJobs)
+                        // console.log(this.listJobs)
                     }))
             },
 

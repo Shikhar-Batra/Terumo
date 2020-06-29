@@ -1,7 +1,7 @@
 <template>
     <div class="medical-layout">
         <div class="primaryHeaderLogoWrapperLink">
-            <a href="/medical">
+            <a href="/">
                 <g-image src="~/terumo_medical_logo.png" alt="Terumo CV Group" class="primaryHeaderLogo"></g-image>
             </a>&nbsp;
         </div>

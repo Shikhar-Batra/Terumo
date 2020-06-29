@@ -15,13 +15,13 @@ module.exports = function (api) {
   })
 
 
-
-  module.exports = function (api) {
-    api.loadSource(async actions => {
-      const {data} = await axios.get('https://api.lever.co/v0/postings/velocitycloud')
-      console.log(this.data)
-    })
-  }
+  //
+  // module.exports = function (api) {
+  //   api.loadSource(async actions => {
+  //     const {data} = await axios.get('https://api.lever.co/v0/postings/terumo')
+  //     console.log(this.data)
+  //   })
+  // }
 
 
 

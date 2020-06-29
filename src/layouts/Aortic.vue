@@ -10,8 +10,8 @@
             <!--        <g-link to="/">{{ $static.metadata.siteName }}</g-link>-->
             <!--      </strong>-->
             <nav class="nav">
-                <g-link class="nav__link" to="/">All Jobs</g-link>
-                <g-link class="nav__link" to="/aortic">Aortic Jobs</g-link>
+                <a class="nav__link" href="/">All Jobs</a>
+                <a class="nav__link" href="/aortic">Aortic Jobs</a>
 
 
             </nav>

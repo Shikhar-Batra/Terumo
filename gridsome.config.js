@@ -6,5 +6,11 @@
 
 module.exports = {
   siteName: 'Terumo Medical Corporation',
-  plugins: []
+  plugins: [
+    {
+      use: 'gridsome-plugin-typescript',
+    }
+
+
+  ]
 }

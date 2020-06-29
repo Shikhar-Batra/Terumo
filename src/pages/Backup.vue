@@ -1,5 +1,5 @@
 <template>
-    <Alayout>
+    <Glayout>
 
 
         <body pagetitle="Job Search Welcome | Terumo CV Group">
@@ -25,23 +25,14 @@
                                 <div class="box-inner  pt50 pb50">
                                     <div class="box-heading text-center">
                                         <div class="max-width">
-                                            <h4 class="gaps-title">ABOUT TERUMO AORTIC
+                                            <h4 class="gaps-title">Thank you for visiting the Terumo Career Center
                                             </h4>
-                                            <p class="font14">At Terumo Aortic, our mission is to transform the
-                                                treatment of aortic disease worldwide. With our comprehensive portfolio
-                                                of surgical, endovascular and hybrid technologies, we enable physicians
-                                                to find the right fit for each patient anatomy.</p>
-                                            <p class="font14"> The company has over 1,250 associates around the world
-                                                with manufacturing facilities in Glasgow, Scotland and Sunrise, Florida.<br/>
-                                                Terumo Aortic is focused on the continuing development of new and
-                                                innovative products driving the growth of the business globally.
-                                                Associates are part of a stimulating and exciting environment in which
-                                                they can develop their skills and achieve career goals. Working for the
-                                                company, each associate’s role contributes greatly to helping to save or
-                                                improve the lives of patients in over 100 countries worldwide.<br/>
-<!--                                                For technical questions, <a href="http://www.terumoaortic.com/"-->
-<!--                                                                            target="_blank">http://www.terumoaortic.com/</a>.-->
-                                            </p>
+                                            <p class="font14">Here you can view and apply for current job openings at
+                                                Terumo regional and company-specific Jobs, Inc. within the United
+                                                States.<br/>
+                                                For job opportunities outside the U.S., view our locations around the
+                                                world and contact the office nearest you.<br/>
+                                                For technical questions, <a href="">contact us</a>.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,8 +40,6 @@
                             </div>
                         </div>
                     </div>
-
-
 
                     <DropDown @filterJobs="filteredJobs($event)"></DropDown>
 
@@ -81,7 +70,7 @@
                                                             <div class="box-details">
 
                                                                 <div class="box-title">
-                                                                    <!--                                                                    <small class="txt-muted">9028BR</small>-->
+<!--                                                                    <small class="txt-muted">9028BR</small>-->
 
                                                                     <h2>{{JobPosting.text}}</h2>
                                                                 </div>
@@ -124,7 +113,7 @@
 
 
                                             <div class="col-md-12 text-center" v-if="this.JobPostings.length === 0">
-                                                <img class="img-ok" src="../assets/images/no-job.png">
+                                                                        <img class="img-ok" src="../assets/images/no-job.png">
                                                 <p class="no-job">No matching jobs found. Please Try Again</p>
                                             </div>
 
@@ -157,12 +146,14 @@
 
         </body>
 
-    </Alayout>
+    </Glayout>
 </template>
+
 
 <script lang="ts">
     import axios from "axios"
     import {Component, Prop, Vue} from 'vue-property-decorator';
+    // import DropDown from "../component/Dropdown.vue";
     import DropDown from "../components/Dropdown.vue";
 
 
@@ -171,7 +162,7 @@
             DropDown
         }
     })
-    export default class AorticJobListing extends Vue {
+    export default class JobListing extends Vue {
 
         @Prop() private msg!: string;
         JobPostings: any = [];
@@ -224,7 +215,7 @@
 
         async listJobs() {
 
-            await axios.get(`https://api.lever.co/v0/postings/terumo?department=Terumo%20Aortic`)
+            await axios.get(`https://api.lever.co/v0/postings/terumo`)
                 .then(((jobRes) => {
                     this.JobPostings = jobRes.data;
 
@@ -233,18 +224,173 @@
                     this.isLoading = false;
 
                 }))
-            // this.jobs = this.JobPostings
-            // this.postings = this.JobPostings
-            // if (this.postings.length > 12) {
-            //     this.load = true
-            //     this.JobPostings = this.postings.slice(0, 12)
-            // }
-            // this.isLoading = false;
+            this.jobs = this.JobPostings
+            this.postings = this.JobPostings
+            if (this.postings.length > 12) {
+                this.load = true
+                this.JobPostings = this.postings.slice(0, 12)
+            }
+            this.isLoading = false;
 
         }
     }
 
 </script>
 
+
+<!--<script>-->
+
+<!--    // export default {-->
+<!--        // metaInfo: {-->
+<!--        //     title: 'Main'-->
+<!--        // }-->
+<!--    // }-->
+
+
+
+
+<!--    // const axios = require('axios')-->
+
+<!--    import axios from 'axios'-->
+<!--    import DropDown from "../components/Dropdown.vue";-->
+<!--    // const Dropdown = require('/components/Dropdown')-->
+
+<!--    export default {-->
+
+
+<!--        metaInfo: {-->
+<!--            title: 'Main'-->
+<!--        },-->
+
+<!--        components: {-->
+<!--            DropDown-->
+<!--        },-->
+<!--        methods: {-->
+<!--            async listAllJobs() {-->
+<!--                await axios.get(`https://api.lever.co/v0/postings/terumo`)-->
+<!--                    .then(((jobRes) => {-->
+<!--                        this.listJobs = jobRes.data;-->
+<!--                        // console.log(this.listJobs)-->
+<!--                    }))-->
+<!--            },-->
+
+<!--            filteredJobs(data) {-->
+<!--                this.JobPostings = data-->
+<!--                this.isLoading = false;-->
+<!--            }-->
+
+
+<!--        },-->
+<!--        data() {-->
+<!--            return {-->
+
+<!--                // todos: null,-->
+<!--                listJobs: null,-->
+<!--                JobPostings: []-->
+
+
+<!--            }-->
+<!--        },-->
+<!--        // metaInfo: {-->
+<!--        //     title: 'Main'-->
+<!--        // },-->
+
+<!--        async mounted() {-->
+
+
+
+
+<!--            this.listAllJobs()-->
+
+<!--            // this.filteredJobs()-->
+
+
+<!--            // async submit()-->
+<!--            // {-->
+<!--            //     let filterJobs-->
+<!--            //     if (this.location == null && this.department == null) filterJobs = this.DropdownValues;-->
+<!--            //     else filterJobs = (this.location !== null && this.department !== null) ? this.DropdownValues.filter((job: any) => job.categories.location === this.location && job.categories.department === this.department) : '' || (this.department !== '' && this.location === null) ? this.DropdownValues.filter((job: any) => job.categories.department === this.department) : '' || (this.location !== '' && this.department === null) ? this.DropdownValues.filter((job: any) => job.categories.location === this.location) : '';-->
+<!--            //     await this.$emit('filterJobs', filterJobs)-->
+<!--            // }-->
+
+
+
+<!--            // async function listJobs(){-->
+<!--            //     await axios.get(`https://api.lever.co/v0/postings/velocitycloud`)-->
+<!--            //         .then(((jobRes) => {-->
+<!--            //             this.JobPostings = jobRes.data;-->
+<!--            //             console.log(this.JobPostings)-->
+<!--            //-->
+<!--            //         }))-->
+<!--            //     console.log('Hi2')-->
+<!--            // }-->
+
+
+
+
+<!--        }-->
+<!--    }-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--</script>-->
+
 <style>
+    h5.loading-txt {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        top: 100%;
+        z-index: 999999;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .loading-txt:before {
+        content: ' ';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -60px;
+        margin: 0 auto;
+        background-image: url("http://uat.gas.ind.in/loading.svg");
+        background-size: 60px;
+        width: 60px;
+        height: 60px;
+        z-index: 9999;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .loading-txt:after {
+        content: '';
+        background-color: rgba(255, 255, 255, 0.35);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .img-ok {
+        max-width: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
 </style>

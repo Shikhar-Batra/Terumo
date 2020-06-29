@@ -1,5 +1,52 @@
 /*Grid css*/
 
+h5.loading-txt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    top: 100%;
+    z-index: 999999;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.loading-txt:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -60px;
+    margin: 0 auto;
+    background-image: url("http://uat.gas.ind.in/loading.svg");
+    background-size: 60px;
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+.loading-txt:after {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.35);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.img-ok {
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
 
 .gaps-col-1 {
     -webkit-box-flex: 0;

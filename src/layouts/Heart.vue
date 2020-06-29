@@ -11,7 +11,7 @@
             <!--      </strong>-->
             <nav class="nav">
                 <g-link class="nav__link" to="/">All Jobs</g-link>
-                <g-link class="nav__link" to="/heart">Heart Jobs</g-link>
+<!--                <g-link class="nav__link" to="/heart">Heart Jobs</g-link>-->
             </nav>
         </header>
 

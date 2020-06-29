@@ -10,10 +10,10 @@
             <!--        <g-link to="/">{{ $static.metadata.siteName }}</g-link>-->
             <!--      </strong>-->
             <nav class="nav">
-                        <g-link class="nav__link" to="/aortic">Aortic</g-link>
-                        <g-link class="nav__link" to="/heart">Heart</g-link>
-                        <g-link class="nav__link" to="/cardiovascular">Cardiovascular</g-link>
-                        <g-link class="nav__link" to="/medical">Medical</g-link>
+                        <a class="nav__link" href="/aortic">Aortic</a>
+<!--                        <g-link class="nav__link" to="/heart">Heart</g-link>-->
+                        <a class="nav__link" href="/cardiovascular">Cardiovascular</a>
+                        <a class="nav__link" href="/medical">Medical</a>
 
             </nav>
         </header>
